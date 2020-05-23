@@ -32,6 +32,7 @@ module.exports = {
                     collapsable: true,
                     children: [
                         ['/form/algorithm/1', '两数之和'],
+                        ['/form/algorithm/2', '排序'],
                     ]
                 }
             ]
