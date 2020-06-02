@@ -33,6 +33,13 @@ module.exports = {
                     children: [
                         ['/form/algorithm/1', '两数之和'],
                     ]
+                },
+                {
+                    title:'网络',
+                    collapsable: true,
+                    children: [
+                        ['/form/internet/1', '网络笔记'],
+                    ]
                 }
             ]
         }
