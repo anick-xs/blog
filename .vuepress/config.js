@@ -1,7 +1,7 @@
 module.exports = {
     base: '/blog/',
     title: '前端博客',  // 设置网站标题
-    description : '菜鸟日记',
+    description : '',
     head: [
         ['link', { rel: 'icon', href: '/logo.png' }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
