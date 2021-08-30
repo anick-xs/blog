@@ -1,6 +1,6 @@
 {
-  "name": "ctl-web-module",
-  "short_name": "ctl-web-module",
+  "name": "blog",
+  "short_name": "blog",
   "icons": [
     {
       "src": "/icons/android-chrome-192x192.png",
