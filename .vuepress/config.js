@@ -1,7 +1,7 @@
 module.exports = {
     base: '/blog/',
-    title: '前端博客',  // 设置网站标题
-    description : '',
+    title: '前端笔记',  // 设置网站标题
+    description : '生活就像海洋，只有意志坚强的人才能到达彼岸',
     head: [
         ['link', { rel: 'icon', href: '/logo.png' }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
@@ -11,7 +11,7 @@ module.exports = {
         //导航栏
         nav: [
             { text: '主页', link: '/' },
-            { text: '文章', link: '/form/form' },
+            { text: '文章', link: '/javaScript/prototype' },
             {
                 text: 'GitHub',
                 link: 'https://github.com/anick-xs/blog'
@@ -24,7 +24,7 @@ module.exports = {
                     title:'javaScript',
                     collapsable: true,
                     children: [
-                        ['/form/form', 'form'],
+                        ['/form/javaScript/prototype', 'JavaScript深入之从原型到原型链'],
                     ]
                 },
                 {
@@ -39,7 +39,7 @@ module.exports = {
                     title:'网络',
                     collapsable: true,
                     children: [
-                        ['/form/internet/1', '网络笔记'],
+                        ['/form/internet/http', 'http'],
                     ]
                 }
             ]

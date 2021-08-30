@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    1111
+</body>
+<script>
+    function Person() {  // 函数
+        this.name = 'nick';
+    }
+    console.log(Person.prototype) // 指向原型对象 {constructor: ƒ}
+    var person1 = new Person();
+    var person2 = new Person();
+    console.log(person1.name) // Kevin
+    console.log(person2.name) // Kevin
+</script>
+
+</html>
