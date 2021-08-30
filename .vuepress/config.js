@@ -25,6 +25,9 @@ module.exports = {
                     collapsable: true,
                     children: [
                         ['/form/javaScript/prototype', 'JavaScript深入之从原型到原型链'],
+                        ['/form/javaScript/inherit', 'JavaScript深入之继承的多种方式'],
+                        ['/form/javaScript/scope', 'JavaScript深入之作用域链'],
+                        ['/form/javaScript/closure', 'JavaScript深入之闭包'],
                     ]
                 },
                 {
