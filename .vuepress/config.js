@@ -11,7 +11,8 @@ module.exports = {
         //导航栏
         nav: [
             { text: '主页', link: '/' },
-            { text: '文章', link: '/javaScript/prototype' },
+            { text: '基础', link: '/form/javaScript/prototype' },
+            { text: '算法', link: '/algorithm/a/1' },
             {
                 text: 'GitHub',
                 link: 'https://github.com/anick-xs/blog'
@@ -44,18 +45,19 @@ module.exports = {
                     ]
                 },
                 {
-                    title:'算法',
-                    collapsable: true,
-                    children: [
-                        ['/form/algorithm/1', '两数之和'],
-                        ['/form/algorithm/2', '排序'],
-                    ]
-                },
-                {
                     title:'网络',
                     collapsable: true,
                     children: [
                         ['/form/internet/http', 'http'],
+                    ]
+                }
+            ],
+            '/algorithm': [
+                {
+                    title:'数组与字符串',
+                    collapsable: true,
+                    children: [
+                        ['/algorithm/a/1', '两数之和']
                     ]
                 }
             ]
