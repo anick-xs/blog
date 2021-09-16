@@ -214,10 +214,7 @@
  ## 本文相关链接
  [《JavaScript深入之执行上下文栈》](https://github.com/mqyqingfeng/Blog/issues/4)
  
- ## 深入系列
- JavaScript深入系列目录地址：https://github.com/mqyqingfeng/Blog。
- 
- JavaScript深入系列预计写十五篇左右，旨在帮大家捋顺JavaScript底层知识，重点讲解如原型、作用域、执行上下文、变量对象、this、闭包、按值传递、call、apply、bind、new、继承等难点概念。
+原文：https://github.com/mqyqingfeng/Blog/issues/5
  
  
 

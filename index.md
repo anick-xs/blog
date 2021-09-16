@@ -9,7 +9,7 @@ features:
 - title: 算法
   details: 每天刷一道算法题。
 - title: 网络
-  details: 学习网络基础。
+  details: 深入理解网络基础。
 
 footer: MIT Licensed | Copyright © anicks
 ---

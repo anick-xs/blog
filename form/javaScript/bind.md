@@ -277,4 +277,5 @@
   
   [《JavaScript深入系列之new的模拟实现》](https://github.com/mqyqingfeng/Blog/issues/13)
 
+原文：https://github.com/mqyqingfeng/Blog/issues/12
 

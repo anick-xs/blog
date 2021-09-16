@@ -1,6 +1,6 @@
 module.exports = {
     base: '/blog/',
-    title: '前端笔记',  // 设置网站标题
+    title: '前端内卷宝典',  // 设置网站标题
     description : '生活就像海洋，只有意志坚强的人才能到达彼岸',
     head: [
         ['link', { rel: 'icon', href: '/logo.png' }],
@@ -42,13 +42,25 @@ module.exports = {
                         ['https://zhuanlan.zhihu.com/p/33058983', '事件循环机制'],
                         ['https://juejin.cn/post/6844904063570542599', 'promise原理'],
                         ['http://www.alloyteam.com/2016/02/generators-in-depth', 'generator原理'],
+                        ['https://juejin.cn/post/6844903845227659271','正则']
                     ]
                 },
                 {
                     title:'网络',
                     collapsable: true,
                     children: [
-                        ['/form/internet/http', 'http'],
+                        ['https://juejin.cn/post/6857287743966281736', 'http'],
+                        ['https://zhuanlan.zhihu.com/p/32059190','七层网络模型']
+                    ]
+                },
+                {
+                    title:'手写题',
+                    collapsable: true,
+                    children: [
+                        ['','常见题'],
+                        ['https://juejin.cn/post/6945319439772434469#heading-26', 'Promise-1'],
+                        ['https://juejin.cn/post/6844903625769091079', 'Promise-1'],
+                        
                     ]
                 }
             ],
